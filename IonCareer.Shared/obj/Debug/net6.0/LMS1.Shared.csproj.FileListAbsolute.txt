@@ -1,0 +1,12 @@
+D:\Projects\LMS1\LMS1.Shared\obj\Debug\net6.0\LMS1.Shared.csproj.AssemblyReference.cache
+D:\Projects\LMS1\LMS1.Shared\obj\Debug\net6.0\LMS1.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\LMS1\LMS1.Shared\obj\Debug\net6.0\LMS1.Shared.AssemblyInfoInputs.cache
+D:\Projects\LMS1\LMS1.Shared\obj\Debug\net6.0\LMS1.Shared.AssemblyInfo.cs
+D:\Projects\LMS1\LMS1.Shared\obj\Debug\net6.0\LMS1.Shared.csproj.CoreCompileInputs.cache
+D:\Projects\LMS1\LMS1.Shared\bin\Debug\net6.0\LMS1.Shared.deps.json
+D:\Projects\LMS1\LMS1.Shared\bin\Debug\net6.0\LMS1.Shared.dll
+D:\Projects\LMS1\LMS1.Shared\bin\Debug\net6.0\LMS1.Shared.pdb
+D:\Projects\LMS1\LMS1.Shared\obj\Debug\net6.0\LMS1.Shared.dll
+D:\Projects\LMS1\LMS1.Shared\obj\Debug\net6.0\refint\LMS1.Shared.dll
+D:\Projects\LMS1\LMS1.Shared\obj\Debug\net6.0\LMS1.Shared.pdb
+D:\Projects\LMS1\LMS1.Shared\obj\Debug\net6.0\ref\LMS1.Shared.dll

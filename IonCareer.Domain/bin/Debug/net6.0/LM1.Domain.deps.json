@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LM1.Domain/1.0.0": {
+        "dependencies": {
+          "LMS1.Shared": "1.0.0"
+        },
+        "runtime": {
+          "LM1.Domain.dll": {}
+        }
+      },
+      "LMS1.Shared/1.0.0": {
+        "runtime": {
+          "LMS1.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LM1.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LMS1.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

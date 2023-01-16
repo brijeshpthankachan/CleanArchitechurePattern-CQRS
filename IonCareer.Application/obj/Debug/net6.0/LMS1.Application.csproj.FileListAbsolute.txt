@@ -1,0 +1,17 @@
+D:\Projects\LMS1\LMS1.Application\obj\Debug\net6.0\LMS1.Application.csproj.AssemblyReference.cache
+D:\Projects\LMS1\LMS1.Application\obj\Debug\net6.0\LMS1.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\LMS1\LMS1.Application\obj\Debug\net6.0\LMS1.Application.AssemblyInfoInputs.cache
+D:\Projects\LMS1\LMS1.Application\obj\Debug\net6.0\LMS1.Application.AssemblyInfo.cs
+D:\Projects\LMS1\LMS1.Application\obj\Debug\net6.0\LMS1.Application.csproj.CoreCompileInputs.cache
+D:\Projects\LMS1\LMS1.Application\bin\Debug\net6.0\LMS1.Application.deps.json
+D:\Projects\LMS1\LMS1.Application\bin\Debug\net6.0\LMS1.Application.dll
+D:\Projects\LMS1\LMS1.Application\bin\Debug\net6.0\LMS1.Application.pdb
+D:\Projects\LMS1\LMS1.Application\bin\Debug\net6.0\LM1.Domain.dll
+D:\Projects\LMS1\LMS1.Application\bin\Debug\net6.0\LMS1.Shared.dll
+D:\Projects\LMS1\LMS1.Application\bin\Debug\net6.0\LM1.Domain.pdb
+D:\Projects\LMS1\LMS1.Application\bin\Debug\net6.0\LMS1.Shared.pdb
+D:\Projects\LMS1\LMS1.Application\obj\Debug\net6.0\LMS1.Application.csproj.CopyComplete
+D:\Projects\LMS1\LMS1.Application\obj\Debug\net6.0\LMS1.Application.dll
+D:\Projects\LMS1\LMS1.Application\obj\Debug\net6.0\refint\LMS1.Application.dll
+D:\Projects\LMS1\LMS1.Application\obj\Debug\net6.0\LMS1.Application.pdb
+D:\Projects\LMS1\LMS1.Application\obj\Debug\net6.0\ref\LMS1.Application.dll

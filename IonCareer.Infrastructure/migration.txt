@@ -1,0 +1,1 @@
+﻿dotnet ef --startup-project ../IonCareer.Api migrations add "initial" -o Persistence/Migrations
