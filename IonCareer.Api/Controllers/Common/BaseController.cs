@@ -3,6 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace IonCareer.Api.Controllers.Common
 {
+
+    /// <summary>
+    /// Base Controller for all controllers.
+    /// </summary>
+    /// <seealso cref="ControllerBase" />
+
     [Route("api")]
     [ApiController]
     [ProducesResponseType(typeof(ProblemDetails), 500)]

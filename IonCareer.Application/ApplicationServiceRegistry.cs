@@ -4,6 +4,10 @@ using System.Reflection;
 
 namespace IonCareer.Application
 {
+
+    /// <summary>
+    /// Class that registers all interfaces and implementations to DI
+    /// </summary>
     public static class ApplicationServiceRegistry
     {
         /// <summary>

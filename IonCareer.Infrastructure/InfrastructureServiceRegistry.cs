@@ -5,8 +5,16 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace IonCareer.Infrastructure
 {
+    /// <summary>
+    /// Class that registers all interfaces and implementations to DI
+    /// </summary>
     public static class InfrastructureServiceRegistry
     {
+        /// <summary>
+        /// Adds the infrastructure services.
+        /// </summary>
+        /// <param name="services">The services.</param>
+        /// <param name="configuration">The configuration.</param>
         public static void AddInfrastructureServices(this IServiceCollection services,
           IConfiguration configuration)
         {

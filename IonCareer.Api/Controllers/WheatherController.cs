@@ -9,7 +9,11 @@ namespace IonCareer.Api.Controllers
 
     public class WheatherController : BaseController
     {
-
+        /// <summary>
+        /// Dummy api written for checking Functionality
+        /// Gets All the Weather Info
+        /// </summary>
+        /// <returns></returns>
 
         [HttpGet("Weather")]
         [ProducesResponseType(typeof(List<WeatherDto>), (int)HttpStatusCode.OK)]
