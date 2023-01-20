@@ -3,6 +3,7 @@ using IonCareer.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IonCareer.Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(IonCareerDbContext))]
-    partial class IonCareerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230118100132_Added Roles Table")]
+    partial class AddedRolesTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

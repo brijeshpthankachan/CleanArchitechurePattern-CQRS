@@ -19,24 +19,6 @@ namespace IonCareer.Infrastructure
           IConfiguration configuration)
         {
 
-
-            //for MySql or MariaDb
-
-            //     services.AddEntityFrameworkMySql().AddDbContext<IonCareerDbContext>(options =>
-            //options.UseMySql(
-
-            //     configuration.GetConnectionString("MariaDb"),
-            //      new MySqlServerVersion(new Version()),
-            //      options => options.EnableRetryOnFailure(
-            //          maxRetryCount: 3,
-            //          maxRetryDelay: System.TimeSpan.FromSeconds(30),
-            //          errorNumbersToAdd: null)
-
-            //    ));
-
-
-            //for SQL Server
-
             services.AddDbContext<IonCareerDbContext>(option =>
             {
 
