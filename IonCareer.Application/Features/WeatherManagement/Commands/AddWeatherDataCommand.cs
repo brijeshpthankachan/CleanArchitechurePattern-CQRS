@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace IonCareer.Application.Features.WeatherManagement.Commands
 {
-    public sealed record AddWeatherDataCommand(WeatherData data) : IRequest<List<WeatherDto>>;
+    public sealed record AddWeatherDataCommand(WeatherData Data, CancellationToken CancellationToken) : IRequest<List<WeatherDto>>;
 
 
 
@@ -23,9 +23,9 @@ namespace IonCareer.Application.Features.WeatherManagement.Commands
         {
             var weather = new WeatherData()
             {
-                Temperature = request.data.Temperature,
-                Humidity = request.data.Humidity,
-                Location = request.data.Location,
+                Temperature = request.Data.Temperature,
+                Humidity = request.Data.Humidity,
+                Location = request.Data.Location,
             };
 
             _ionCareerDbContext.WeatherDatas.Add(weather);

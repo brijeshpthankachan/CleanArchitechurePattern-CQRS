@@ -27,9 +27,9 @@ namespace IonCareer.Api.Controllers
 
         [HttpPost("AddWeather")]
         [ProducesResponseType(typeof(List<WeatherDto>), (int)HttpStatusCode.OK)]
-        public async Task<IActionResult> AddWeatherData([FromBody] WeatherData request)
+        public async Task<IActionResult> AddWeatherData([FromBody] WeatherData request, CancellationToken cancellationToken)
         {
-            var Result = await Mediator.Send(new AddWeatherDataCommand(request));
+            var Result = await Mediator.Send(new AddWeatherDataCommand(request, cancellationToken));
             return Ok(Result);
         }
 

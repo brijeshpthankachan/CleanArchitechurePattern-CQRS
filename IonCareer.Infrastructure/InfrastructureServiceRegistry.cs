@@ -19,6 +19,31 @@ namespace IonCareer.Infrastructure
           IConfiguration configuration)
         {
 
+
+
+            //for Mysql or Mariadb
+            //    services.AddEntityFrameworkMySql().AddDbContext<IonCareerDbContext>(options =>
+            //options.UseMySql(
+
+            //     configuration.GetConnectionString("MariaDb"),
+            //      new MySqlServerVersion(new Version()),
+            //      options => options.EnableRetryOnFailure(
+            //          maxRetryCount: 3,
+            //          maxRetryDelay: System.TimeSpan.FromSeconds(30),
+            //          errorNumbersToAdd: null)
+
+            //    ));
+
+
+
+
+            //for Postgress 
+            //      services.AddEntityFrameworkNpgsql().AddDbContext<IonCareerDbContext>(options =>
+            //options.UseNpgsql(configuration.GetConnectionString("Postgress")));
+
+
+
+            //for SQLserver
             services.AddDbContext<IonCareerDbContext>(option =>
             {
 
