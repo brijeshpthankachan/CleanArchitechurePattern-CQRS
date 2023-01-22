@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\IonCareer\\IonCareer.Shared\\IonCareer.Shared.csproj": {}
+    "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\IonCareer.Shared.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\IonCareer\\IonCareer.Shared\\IonCareer.Shared.csproj": {
+    "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\IonCareer.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\IonCareer\\IonCareer.Shared\\IonCareer.Shared.csproj",
+        "projectUniqueName": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\IonCareer.Shared.csproj",
         "projectName": "IonCareer.Shared",
-        "projectPath": "D:\\Projects\\IonCareer\\IonCareer.Shared\\IonCareer.Shared.csproj",
+        "projectPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\IonCareer.Shared.csproj",
         "packagesPath": "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\IonCareer\\IonCareer.Shared\\obj\\",
+        "outputPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brijesh.thankachan\\AppData\\Roaming\\NuGet\\NuGet.Config",

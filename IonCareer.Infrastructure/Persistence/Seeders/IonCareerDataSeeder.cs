@@ -8,14 +8,9 @@ public static class IonCareerDataSeeder
 {
     public static void SeedData(ModelBuilder modelBuilder)
     {
-        SeedWeatherData(modelBuilder);
         SeedRoleData(modelBuilder);
     }
 
-    private static void SeedWeatherData(ModelBuilder modelBuilder)
-    {
-        foreach (var weather in WeatherTypeSeeder.GetData()) modelBuilder.Entity<WeatherData>().HasData(weather);
-    }
 
     private static void SeedRoleData(ModelBuilder modelBuilder)
     {

@@ -1,4 +1,4 @@
-﻿namespace IonCareer.Application.Configurations.Validation;
+﻿namespace IonCareer.Application.Exceptions;
 
 public class InvalidCommandException : Exception
 {

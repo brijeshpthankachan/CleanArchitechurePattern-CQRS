@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IonCareer.Shared
-build_property.ProjectDir = D:\Projects\IonCareer\IonCareer.Shared\
+build_property.ProjectDir = D:\Projects\CleanArchitechurePattern-CQRS\IonCareer.Shared\

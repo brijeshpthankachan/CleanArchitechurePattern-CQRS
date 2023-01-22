@@ -2,7 +2,7 @@
 using MediatR;
 using ValidationException = IonCareer.Application.Exceptions.ValidationException;
 
-namespace IonCareer.Application.Configurations;
+namespace IonCareer.Application.Configurations.Validation;
 
 public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>

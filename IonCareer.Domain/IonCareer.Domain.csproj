@@ -7,12 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IonCareer.Shared\IonCareer.Shared.csproj" />
+    <Compile Remove="Entities\Common\**" />
+    <Compile Remove="Exceptions\Base\**" />
+    <EmbeddedResource Remove="Entities\Common\**" />
+    <EmbeddedResource Remove="Exceptions\Base\**" />
+    <None Remove="Entities\Common\**" />
+    <None Remove="Exceptions\Base\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\Common\" />
-    <Folder Include="Exceptions\Base\" />
+    <ProjectReference Include="..\IonCareer.Shared\IonCareer.Shared.csproj" />
   </ItemGroup>
 
 </Project>

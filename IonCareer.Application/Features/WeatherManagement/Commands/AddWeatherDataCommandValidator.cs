@@ -6,7 +6,7 @@ public class AddWeatherDataCommandValidator : AbstractValidator<AddWeatherDataCo
 {
     public AddWeatherDataCommandValidator()
     {
-        RuleFor(x => x.Data.Location).NotNull().MaximumLength(5).WithMessage("Too long");
+        RuleFor(x => x.Data.Location).NotNull().MaximumLength(5).WithMessage("Location's length Cannot exceed 5").WithName("Location");
         RuleFor(x => x.Data.Temperature).NotNull();
         RuleFor(x => x.Data.Humidity).NotNull();
     }
