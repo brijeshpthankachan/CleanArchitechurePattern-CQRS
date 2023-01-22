@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MyPe7jdvqVXTGcAL6gVCgljHvyDXBAT4w3FqMps1LZk9BLgpjxLH21cjOZil7IbkR0NPbMIZ7wT46ARAubuIYg==",
+  "dgSpecHash": "AW0TZRWf3bA8lMM23nYufbeqMnSSJCg51D+i/Oz9Apcbx4tU5WuxrSZO/iRj7UYlRSjrHMmmTHiXeRgcteL1LQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\IonCareer\\IonCareer.Shared\\IonCareer.Shared.csproj",
+  "projectFilePath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\IonCareer.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

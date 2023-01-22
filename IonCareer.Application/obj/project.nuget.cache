@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "iyvZQqpRXgbVXgzo+imt7JEkSNq4655yZFX/SbQjE+uSkBMr8AvNACLUWa0cxSgs/1xwp1BgxVBzI9JTMr3RUA==",
+  "dgSpecHash": "q/RGUD4VCKK3SqgQQxPcXtPYvTmtGdg0InN966ic32hwayi4Auv2qTXvCBSXihyqd5Yscjd3yHNtqP1+ylr4Mg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\IonCareer\\IonCareer.Application\\IonCareer.Application.csproj",
+  "projectFilePath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Application\\IonCareer.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.4.0\\fluentvalidation.dependencyinjectionextensions.11.4.0.nupkg.sha512",
     "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.13\\microsoft.entityframeworkcore.6.0.13.nupkg.sha512",
     "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.13\\microsoft.entityframeworkcore.abstractions.6.0.13.nupkg.sha512",
     "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.13\\microsoft.entityframeworkcore.analyzers.6.0.13.nupkg.sha512",
@@ -21,7 +25,8 @@
     "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

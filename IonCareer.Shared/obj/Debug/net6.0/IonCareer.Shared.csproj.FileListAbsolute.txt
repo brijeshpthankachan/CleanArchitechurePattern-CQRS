@@ -34,3 +34,15 @@ D:\Projects\IonCareer\IonCareer.Shared\obj\Debug\net6.0\IonCareer.Shared.dll
 D:\Projects\IonCareer\IonCareer.Shared\obj\Debug\net6.0\refint\IonCareer.Shared.dll
 D:\Projects\IonCareer\IonCareer.Shared\obj\Debug\net6.0\IonCareer.Shared.pdb
 D:\Projects\IonCareer\IonCareer.Shared\obj\Debug\net6.0\ref\IonCareer.Shared.dll
+D:\Projects\CleanArchitechurePattern-CQRS\IonCareer.Shared\bin\Debug\net6.0\IonCareer.Shared.deps.json
+D:\Projects\CleanArchitechurePattern-CQRS\IonCareer.Shared\bin\Debug\net6.0\IonCareer.Shared.dll
+D:\Projects\CleanArchitechurePattern-CQRS\IonCareer.Shared\bin\Debug\net6.0\IonCareer.Shared.pdb
+D:\Projects\CleanArchitechurePattern-CQRS\IonCareer.Shared\obj\Debug\net6.0\IonCareer.Shared.csproj.AssemblyReference.cache
+D:\Projects\CleanArchitechurePattern-CQRS\IonCareer.Shared\obj\Debug\net6.0\IonCareer.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CleanArchitechurePattern-CQRS\IonCareer.Shared\obj\Debug\net6.0\IonCareer.Shared.AssemblyInfoInputs.cache
+D:\Projects\CleanArchitechurePattern-CQRS\IonCareer.Shared\obj\Debug\net6.0\IonCareer.Shared.AssemblyInfo.cs
+D:\Projects\CleanArchitechurePattern-CQRS\IonCareer.Shared\obj\Debug\net6.0\IonCareer.Shared.csproj.CoreCompileInputs.cache
+D:\Projects\CleanArchitechurePattern-CQRS\IonCareer.Shared\obj\Debug\net6.0\IonCareer.Shared.dll
+D:\Projects\CleanArchitechurePattern-CQRS\IonCareer.Shared\obj\Debug\net6.0\refint\IonCareer.Shared.dll
+D:\Projects\CleanArchitechurePattern-CQRS\IonCareer.Shared\obj\Debug\net6.0\IonCareer.Shared.pdb
+D:\Projects\CleanArchitechurePattern-CQRS\IonCareer.Shared\obj\Debug\net6.0\ref\IonCareer.Shared.dll

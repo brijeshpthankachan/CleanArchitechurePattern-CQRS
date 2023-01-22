@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\IonCareer\\IonCareer.Api\\IonCareer.Api.csproj": {}
+    "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Api\\IonCareer.Api.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\IonCareer\\IonCareer.Api\\IonCareer.Api.csproj": {
+    "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Api\\IonCareer.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\IonCareer\\IonCareer.Api\\IonCareer.Api.csproj",
+        "projectUniqueName": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Api\\IonCareer.Api.csproj",
         "projectName": "IonCareer.Api",
-        "projectPath": "D:\\Projects\\IonCareer\\IonCareer.Api\\IonCareer.Api.csproj",
+        "projectPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Api\\IonCareer.Api.csproj",
         "packagesPath": "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\IonCareer\\IonCareer.Api\\obj\\",
+        "outputPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brijesh.thankachan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projects\\IonCareer\\IonCareer.Application\\IonCareer.Application.csproj": {
-                "projectPath": "D:\\Projects\\IonCareer\\IonCareer.Application\\IonCareer.Application.csproj"
+              "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Application\\IonCareer.Application.csproj": {
+                "projectPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Application\\IonCareer.Application.csproj"
               },
-              "D:\\Projects\\IonCareer\\IonCareer.Infrastructure\\IonCareer.Infrastructure.csproj": {
-                "projectPath": "D:\\Projects\\IonCareer\\IonCareer.Infrastructure\\IonCareer.Infrastructure.csproj"
+              "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Infrastructure\\IonCareer.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Infrastructure\\IonCareer.Infrastructure.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "D:\\Projects\\IonCareer\\IonCareer.Application\\IonCareer.Application.csproj": {
+    "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Application\\IonCareer.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\IonCareer\\IonCareer.Application\\IonCareer.Application.csproj",
+        "projectUniqueName": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Application\\IonCareer.Application.csproj",
         "projectName": "IonCareer.Application",
-        "projectPath": "D:\\Projects\\IonCareer\\IonCareer.Application\\IonCareer.Application.csproj",
+        "projectPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Application\\IonCareer.Application.csproj",
         "packagesPath": "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\IonCareer\\IonCareer.Application\\obj\\",
+        "outputPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brijesh.thankachan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,11 +105,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projects\\IonCareer\\IonCareer.Domain\\IonCareer.Domain.csproj": {
-                "projectPath": "D:\\Projects\\IonCareer\\IonCareer.Domain\\IonCareer.Domain.csproj"
+              "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Domain\\IonCareer.Domain.csproj": {
+                "projectPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Domain\\IonCareer.Domain.csproj"
               },
-              "D:\\Projects\\IonCareer\\IonCareer.Shared\\IonCareer.Shared.csproj": {
-                "projectPath": "D:\\Projects\\IonCareer\\IonCareer.Shared\\IonCareer.Shared.csproj"
+              "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\IonCareer.Shared.csproj": {
+                "projectPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\IonCareer.Shared.csproj"
               }
             }
           }
@@ -124,9 +124,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -135,6 +147,10 @@
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
@@ -161,14 +177,14 @@
         }
       }
     },
-    "D:\\Projects\\IonCareer\\IonCareer.Domain\\IonCareer.Domain.csproj": {
+    "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Domain\\IonCareer.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\IonCareer\\IonCareer.Domain\\IonCareer.Domain.csproj",
+        "projectUniqueName": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Domain\\IonCareer.Domain.csproj",
         "projectName": "IonCareer.Domain",
-        "projectPath": "D:\\Projects\\IonCareer\\IonCareer.Domain\\IonCareer.Domain.csproj",
+        "projectPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Domain\\IonCareer.Domain.csproj",
         "packagesPath": "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\IonCareer\\IonCareer.Domain\\obj\\",
+        "outputPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brijesh.thankachan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -185,8 +201,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projects\\IonCareer\\IonCareer.Shared\\IonCareer.Shared.csproj": {
-                "projectPath": "D:\\Projects\\IonCareer\\IonCareer.Shared\\IonCareer.Shared.csproj"
+              "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\IonCareer.Shared.csproj": {
+                "projectPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\IonCareer.Shared.csproj"
               }
             }
           }
@@ -220,14 +236,14 @@
         }
       }
     },
-    "D:\\Projects\\IonCareer\\IonCareer.Infrastructure\\IonCareer.Infrastructure.csproj": {
+    "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Infrastructure\\IonCareer.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\IonCareer\\IonCareer.Infrastructure\\IonCareer.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Infrastructure\\IonCareer.Infrastructure.csproj",
         "projectName": "IonCareer.Infrastructure",
-        "projectPath": "D:\\Projects\\IonCareer\\IonCareer.Infrastructure\\IonCareer.Infrastructure.csproj",
+        "projectPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Infrastructure\\IonCareer.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\IonCareer\\IonCareer.Infrastructure\\obj\\",
+        "outputPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brijesh.thankachan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -244,8 +260,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projects\\IonCareer\\IonCareer.Application\\IonCareer.Application.csproj": {
-                "projectPath": "D:\\Projects\\IonCareer\\IonCareer.Application\\IonCareer.Application.csproj"
+              "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Application\\IonCareer.Application.csproj": {
+                "projectPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Application\\IonCareer.Application.csproj"
               }
             }
           }
@@ -276,6 +292,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[6.0.2, )"
@@ -301,14 +321,14 @@
         }
       }
     },
-    "D:\\Projects\\IonCareer\\IonCareer.Shared\\IonCareer.Shared.csproj": {
+    "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\IonCareer.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\IonCareer\\IonCareer.Shared\\IonCareer.Shared.csproj",
+        "projectUniqueName": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\IonCareer.Shared.csproj",
         "projectName": "IonCareer.Shared",
-        "projectPath": "D:\\Projects\\IonCareer\\IonCareer.Shared\\IonCareer.Shared.csproj",
+        "projectPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\IonCareer.Shared.csproj",
         "packagesPath": "C:\\Users\\brijesh.thankachan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\IonCareer\\IonCareer.Shared\\obj\\",
+        "outputPath": "D:\\Projects\\CleanArchitechurePattern-CQRS\\IonCareer.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brijesh.thankachan\\AppData\\Roaming\\NuGet\\NuGet.Config",

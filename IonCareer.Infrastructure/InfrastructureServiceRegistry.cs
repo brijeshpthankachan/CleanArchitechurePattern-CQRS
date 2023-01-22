@@ -38,7 +38,7 @@ public static class InfrastructureServiceRegistry
     }
 
     /// <summary>
-    ///     Adds  Configurations  for Mysql or Mariadb  to Di
+    ///     Adds  Configurations  for MySql or MariaDb  to Di
     /// </summary>
     /// <param name="services"></param>
     /// <param name="configuration"></param>
@@ -56,7 +56,7 @@ public static class InfrastructureServiceRegistry
     }
 
     /// <summary>
-    ///     Adds  Configurations for Postgres Server  to Di
+    ///     Adds  Configurations for Postgress Server  to Di
     /// </summary>
     /// <param name="services"></param>
     /// <param name="configuration"></param>

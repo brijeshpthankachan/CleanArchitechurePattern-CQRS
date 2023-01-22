@@ -2,7 +2,7 @@
 
 using System.Reflection;
 using FluentValidation;
-using IonCareer.Application.Configurations;
+using IonCareer.Application.Configurations.Validation;
 using IonCareer.Application.MiddleWare;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
