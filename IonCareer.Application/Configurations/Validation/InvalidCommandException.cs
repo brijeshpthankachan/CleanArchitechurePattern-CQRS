@@ -1,11 +1,11 @@
-﻿namespace IonCareer.Application.Configurations.Validation
+﻿namespace IonCareer.Application.Configurations.Validation;
+
+public class InvalidCommandException : Exception
 {
-    public class InvalidCommandException : Exception
+    public InvalidCommandException(string message, string details) : base(message)
     {
-        public string Details { get; }
-        public InvalidCommandException(string message, string details) : base(message)
-        {
-            this.Details = details;
-        }
+        Details = details;
     }
+
+    private string Details { get; }
 }

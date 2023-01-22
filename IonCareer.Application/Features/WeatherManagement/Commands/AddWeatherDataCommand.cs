@@ -4,45 +4,42 @@ using IonCareer.Domain.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace IonCareer.Application.Features.WeatherManagement.Commands
+namespace IonCareer.Application.Features.WeatherManagement.Commands;
+
+public sealed record AddWeatherDataCommand
+    (WeatherData Data) : IRequest<List<WeatherDto>>;
+
+internal sealed class AddWeatherDataCommandHandler : IRequestHandler<AddWeatherDataCommand, List<WeatherDto>>
 {
-    public sealed record AddWeatherDataCommand(WeatherData Data, CancellationToken CancellationToken) : IRequest<List<WeatherDto>>;
+    private readonly IIonCareerDbContext _ionCareerDbContext;
 
-
-
-    internal sealed class AddWeatherDataCommandHandler : IRequestHandler<AddWeatherDataCommand, List<WeatherDto>>
+    public AddWeatherDataCommandHandler(IIonCareerDbContext ionCareerDbContext)
     {
-        private readonly IIonCareerDbContext _ionCareerDbContext;
+        _ionCareerDbContext = ionCareerDbContext;
+    }
 
-        public AddWeatherDataCommandHandler(IIonCareerDbContext ionCareerDbContext)
+    public async Task<List<WeatherDto>> Handle(AddWeatherDataCommand request, CancellationToken cancellationToken)
+    {
+        var weatherData = new WeatherData
         {
-            _ionCareerDbContext = ionCareerDbContext;
-        }
-
-        public async Task<List<WeatherDto>> Handle(AddWeatherDataCommand request, CancellationToken cancellationToken)
-        {
-            var weather = new WeatherData()
-            {
-                Temperature = request.Data.Temperature,
-                Humidity = request.Data.Humidity,
-                Location = request.Data.Location,
-            };
-
-            _ionCareerDbContext.WeatherDatas.Add(weather);
-            await _ionCareerDbContext.SaveChangesAsync(cancellationToken);
-
-            var weathe = await _ionCareerDbContext.WeatherDatas.
-               Select(weather => new WeatherDto()
-               {
-                   Id = weather.Id,
-                   Temperature = weather.Temperature,
-                   Location = weather.Location
-               })
-               .ToListAsync(cancellationToken);
-
-            return weathe;
-        }
+            Temperature = request.Data.Temperature,
+            Humidity = request.Data.Humidity,
+            Location = request.Data.Location
+        };
 
 
+        _ionCareerDbContext.WeatherDatas?.Add(weatherData);
+        await _ionCareerDbContext.SaveChangesAsync(cancellationToken);
+
+        var weather = await (_ionCareerDbContext.WeatherDatas ?? throw new NullReferenceException()).Select(data =>
+                new WeatherDto
+                {
+                    Id = data.Id,
+                    Temperature = data.Temperature,
+                    Location = data.Location
+                })
+            .ToListAsync(cancellationToken);
+
+        return weather;
     }
 }

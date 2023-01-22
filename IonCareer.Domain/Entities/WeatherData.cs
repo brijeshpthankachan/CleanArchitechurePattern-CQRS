@@ -1,16 +1,11 @@
-﻿
+﻿namespace IonCareer.Domain.Entities;
 
-namespace IonCareer.Domain.Entities
+public class WeatherData
 {
-    public class WeatherData
-    {
-        public int Id { get; set; }
-        public string Location { get; set; }
+    public int Id { get; set; }
+    public string? Location { get; set; }
 
-        public string Temperature { get; set; }
+    public string? Temperature { get; set; }
 
-        public int Humidity { get; set; }
-
-
-    }
+    public int Humidity { get; set; }
 }

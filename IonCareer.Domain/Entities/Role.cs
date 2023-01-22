@@ -1,8 +1,7 @@
-﻿namespace IonCareer.Domain.Entities
+﻿namespace IonCareer.Domain.Entities;
+
+public class Role
 {
-    public class Role
-    {
-        public long Id { get; set; }
-        public string RoleName { get; set; }
-    }
+    public long Id { get; init; }
+    public string? RoleName { get; init; }
 }

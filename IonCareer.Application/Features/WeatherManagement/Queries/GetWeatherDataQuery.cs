@@ -3,33 +3,31 @@ using IonCareer.Application.Dtos;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace IonCareer.Application.Features.WeatherManagement.Queries
+namespace IonCareer.Application.Features.WeatherManagement.Queries;
+
+public class GetWeatherDataQuery : IRequest<List<WeatherDto>>
 {
-    public class GetWeatherDataQuery : IRequest<List<WeatherDto>>
+}
+
+public class GetAllBooksQueryHandler : IRequestHandler<GetWeatherDataQuery, List<WeatherDto>>
+{
+    private readonly IIonCareerDbContext _ionCareerDbContext;
+
+    public GetAllBooksQueryHandler(IIonCareerDbContext ionCareerDbContext)
     {
+        _ionCareerDbContext = ionCareerDbContext;
     }
 
-    public class GetAllBooksQueryHandler : IRequestHandler<GetWeatherDataQuery, List<WeatherDto>>
+    public async Task<List<WeatherDto>> Handle(GetWeatherDataQuery request, CancellationToken cancellationToken)
     {
-        private readonly IIonCareerDbContext _ionCareerDbContext;
+        var weather = await _ionCareerDbContext.WeatherDatas.Select(weather => new WeatherDto
+            {
+                Id = weather.Id,
+                Temperature = weather.Temperature,
+                Location = weather.Location
+            })
+            .ToListAsync(cancellationToken);
 
-        public GetAllBooksQueryHandler(IIonCareerDbContext ionCareerDbContext)
-        {
-            _ionCareerDbContext = ionCareerDbContext;
-        }
-
-        public async Task<List<WeatherDto>> Handle(GetWeatherDataQuery request, CancellationToken cancellationToken)
-        {
-            var weather = await _ionCareerDbContext.WeatherDatas.
-                Select(weather => new WeatherDto()
-                {
-                    Id = weather.Id,
-                    Temperature = weather.Temperature,
-                    Location = weather.Location
-                })
-                .ToListAsync(cancellationToken);
-
-            return weather;
-        }
+        return weather;
     }
 }
