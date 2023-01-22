@@ -15,12 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IonCareer.Application\IonCareer.Application.csproj" />
+    <Folder Include="Persistence\Migrations\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Persistence\" />
-    <Folder Include="Persistence\Migrations\" />
+    <ProjectReference Include="..\IonCareer.Application\IonCareer.Application.csproj" />
   </ItemGroup>
 
   

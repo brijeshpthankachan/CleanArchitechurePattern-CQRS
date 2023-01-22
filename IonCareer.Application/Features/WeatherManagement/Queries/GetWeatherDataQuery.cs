@@ -3,7 +3,7 @@ using IonCareer.Application.Dtos;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace IonCareer.Application.Features.BookManagement
+namespace IonCareer.Application.Features.WeatherManagement.Queries
 {
     public class GetWeatherDataQuery : IRequest<List<WeatherDto>>
     {

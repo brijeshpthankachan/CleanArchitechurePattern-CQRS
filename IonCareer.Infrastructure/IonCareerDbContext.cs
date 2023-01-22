@@ -1,5 +1,6 @@
 ﻿using IonCareer.Application.Contracts.Persistence;
 using IonCareer.Domain.Entities;
+using IonCareer.Infrastructure.Persistence.Seeders;
 using Microsoft.EntityFrameworkCore;
 
 namespace IonCareer.Infrastructure
@@ -16,18 +17,14 @@ namespace IonCareer.Infrastructure
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(IonCareerDbContext).Assembly);
+
+            IonCareerDataSeeder.SeedData(modelBuilder);
+
             base.OnModelCreating(modelBuilder);
         }
 
-        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
-        {
-
-
-            return base.SaveChangesAsync(cancellationToken);
-        }
-
-
         public DbSet<WeatherData> WeatherDatas { get; set; }
+        public DbSet<Role> Roles { get; set; }
 
 
     }

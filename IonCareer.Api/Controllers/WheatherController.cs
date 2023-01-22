@@ -1,6 +1,8 @@
 ﻿using IonCareer.Api.Controllers.Common;
 using IonCareer.Application.Dtos;
-using IonCareer.Application.Features.BookManagement;
+using IonCareer.Application.Features.WeatherManagement.Commands;
+using IonCareer.Application.Features.WeatherManagement.Queries;
+using IonCareer.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -20,6 +22,14 @@ namespace IonCareer.Api.Controllers
         public async Task<IActionResult> GetWeatherData()
         {
             var Result = await Mediator.Send(new GetWeatherDataQuery());
+            return Ok(Result);
+        }
+
+        [HttpPost("AddWeather")]
+        [ProducesResponseType(typeof(List<WeatherDto>), (int)HttpStatusCode.OK)]
+        public async Task<IActionResult> AddWeatherData([FromBody] WeatherData request, CancellationToken cancellationToken)
+        {
+            var Result = await Mediator.Send(new AddWeatherDataCommand(request, cancellationToken));
             return Ok(Result);
         }
 

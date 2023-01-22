@@ -20,9 +20,9 @@ namespace IonCareer.Infrastructure
         {
 
 
-            //for MySql or MariaDb
 
-            //     services.AddEntityFrameworkMySql().AddDbContext<IonCareerDbContext>(options =>
+            //for Mysql or Mariadb
+            //    services.AddEntityFrameworkMySql().AddDbContext<IonCareerDbContext>(options =>
             //options.UseMySql(
 
             //     configuration.GetConnectionString("MariaDb"),
@@ -35,8 +35,15 @@ namespace IonCareer.Infrastructure
             //    ));
 
 
-            //for SQL Server
 
+
+            //for Postgress 
+            //      services.AddEntityFrameworkNpgsql().AddDbContext<IonCareerDbContext>(options =>
+            //options.UseNpgsql(configuration.GetConnectionString("Postgress")));
+
+
+
+            //for SQLserver
             services.AddDbContext<IonCareerDbContext>(option =>
             {
 
