@@ -1,13 +1,12 @@
-﻿namespace IonCareer.Shared.Enums
+﻿namespace IonCareer.Shared.Enums;
+
+public static class RoleEnum
 {
-    public class RoleEnum
+    public enum Roles
     {
-        public enum Roles
-        {
-            Director = 1,
-            VicePresident = 2,
-            HrRecruiter = 3,
-            Employee = 4,
-        }
+        Director = 1,
+        VicePresident = 2,
+        HrRecruiter = 3,
+        Employee = 4
     }
 }

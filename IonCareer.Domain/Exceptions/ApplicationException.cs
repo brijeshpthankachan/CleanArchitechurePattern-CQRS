@@ -1,11 +1,12 @@
-﻿namespace IonCareer.Domain.Exceptions
-{
-    public abstract class ApplicationException : Exception
-    {
-        protected ApplicationException(string title, string message)
-            : base(message) =>
-            Title = title;
+﻿namespace IonCareer.Domain.Exceptions;
 
-        public string Title { get; }
+public abstract class ApplicationException : Exception
+{
+    protected ApplicationException(string title, string message)
+        : base(message)
+    {
+        Title = title;
     }
+
+    public string Title { get; }
 }
